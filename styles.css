@@ -1,3 +1,18 @@
-body {
-    color: red;
+#page-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-image: url("/images/chuck-norris-wallpaper.jpg");
+    height: 100vh;
+}
+
+#text-title {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#output-div {
+    color: seashell;
+    background-color: black;
 }
